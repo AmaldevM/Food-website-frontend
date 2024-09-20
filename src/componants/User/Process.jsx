@@ -10,7 +10,6 @@ const Process = () => {
                         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full flex justify-center mb-10 md:mb-0">
                             <img className="object-cover object-center rounded-lg shadow-lg h-80 md:h-96" alt="hero" src="../public/assets/front-view-young-male-courier-red-uniform-holding-delivery-food-yellow-background.jpg" />
                         </div>
-                        
                         {/* Titles and logos on the right */}
                         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-center md:items-start text-center md:text-left">
                             <h1 className="title-font sm:text-5xl text-4xl mb-6 font-bold text-yellow-600">

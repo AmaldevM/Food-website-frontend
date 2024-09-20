@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    font-family: "Rubik", sans-serif;
+}
+.home span {
+    font-family: "Rubik", sans-serif;
+}
+.home h1,
+h3 {
+    font-family: "Rubik", sans-serif;
+}
+.custom-rouded {
+  border-radius: 0 0 50px 50px;
+}
+.custom-btn-rouded {
+  border-radius: 5px 20px;
+}
+.category .container {
+  overflow-x: scroll;
+}
+.category .wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.category .wrapper:hover::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.category .wrapper::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #fff7e0, #fee6c7);
+  border-radius: 10px;
+}
+.category .wrapper::-webkit-scrollbar-thumb {
+  background: rgb(244, 147, 11);
+  border-radius: 10px;
+}
+.category .wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(246, 128, 59, 0.9);
+}
+.category .wrapper::-webkit-scrollbar-thumb:active {
+  background: rgba(246, 128, 59, 0.9);
+}

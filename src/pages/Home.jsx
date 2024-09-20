@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../componants/Header'
-import Hero from '../componants/Hero'
-import RestaurantsDetails from '../componants/RestaurantsDetails'
-import Howdoesitworks from '../componants/Howdoesitworks'
-import Process from '../componants/process'
-import Whychooseus from '../componants/Whychooseus'
-import { Footer } from '../componants/Footer'
+import Hero from '../componants/User/Hero'
+import RestaurantsDetails from '../componants/User/RestaurantsDetails'
+import Howdoesitworks from '../componants/User/Howdoesitworks'
+import Process from '../componants/User/Process'
+import Whychooseus from '../componants/User/Whychooseus'
+import Header from '../componants/User/Header'
+import { Footer } from '../componants/User/Footer'
 
 export const Home = () => {
   return (
@@ -17,7 +17,6 @@ export const Home = () => {
         <Process />
         <Whychooseus />
         <Footer />
-
     </div>
   )
 }
